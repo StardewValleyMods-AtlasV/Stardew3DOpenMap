@@ -1,0 +1,18 @@
+{
+    "Name": "Stardew3DOpenMap",
+    "Author": "AtlasV & Scarlett",
+    "Version": "0.0.1",
+    "Description": "A complete aligned map purpose made for Stardew3D, it likely can be used for vanilla however compat is not garenteed",
+    "UniqueID": "Stardew3DOpenMap.Stardew3DOpenMap",
+    "UpdateKeys": [ "Nexus:???" ],
+    "ContentPackFor": 
+	{
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+    "Dependencies": [
+    {
+      "UniqueID": "aedenthorn.StardewOpenWorld",
+      "IsRequired": true
+    }
+  ]
+}
