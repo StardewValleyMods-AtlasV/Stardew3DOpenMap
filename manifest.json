@@ -11,8 +11,8 @@
 	},
     "Dependencies": [
     {
-      "UniqueID": "aedenthorn.StardewOpenWorld",
-      "IsRequired": true
+      "UniqueID": "kittycatcasey.Stardew3D",
+      "IsRequired": false
     }
   ]
 }
