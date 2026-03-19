@@ -2,15 +2,9 @@
     "$schema": "https://smapi.io/schemas/content-patcher.json",
     "Changes": [
         {
-            "Action": "EditMap",
-            "Target": "Maps/Backwoods",
+            "Action": "Load",
+            "Target": "Maps/{{ModId}}_BackwoodsExtensionLeft",
             "FromFile": "Assets/Maps/BackwoodsExtensionLeft.tmx",
-            "ToArea": {
-                "X": -26,
-                "Y": 0,
-                "Width": 26,
-                "Height": 40
-            }
         },
         {
             "Action": "EditMap",
@@ -23,6 +17,20 @@
                 "Height": 40
             }
         },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "{{ModId}}_BackwoodsExtensionLeft": {
+                    "DisplayName": "BackwoodsExtensionLeft",
+                    "DefaultArrivalTile": "10, 18",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/{{ModId}}_BackwoodsExtensionLeft"
+                    }
+                }
+            }
+        },
+
     ]
 }
 
