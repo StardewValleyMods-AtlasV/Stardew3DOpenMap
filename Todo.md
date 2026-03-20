@@ -8,6 +8,7 @@
 
 ## Notes
 - Maps should be a minimum of 40 x 24 to avoid black bars on max zoom
+- Iro's Tileinator plugin works well for these maps and helps avoid accidentally including vanilla assets
 
 ## Content
 - [ ] Add Per map json
@@ -15,43 +16,41 @@
 
 ## Maps
 - [ ] Backwoods
+    - [x] BackwoodsExtensionRight
     - [ ] Warps
     - [ ] Tidy up the connecting areas with smaller patches
 - [ ] Backwoods West
     - [ ] Warps
     - [ ] Tidy up the connecting areas with smaller patches
 - [ ] Mountain
-    - [ ] Extend mountain Down
-    - [ ] Extend Moutain Right
+    - [ ] MountainExtensionDown
+        - [ ] Tilesheets borked
+    - [ ] MountainExtensionEast
+        - [ ] Tilesheets borked
     - [ ] Warps
     - [ ] Tidy up the connecting areas with smaller patches
 - [ ] Bus Stop North
     - [ ] Finish detailing
     - [ ] Warps
-- [ ] Expanded Secret woods
-    - [ ] Warps
-    - [ ] Tidy up the connecting areas with smaller patches
 - [ ] Town
     - [ ] Warps
     - [ ] Tidy up the connecting areas with smaller patches
 - [ ] Town East
-    - [ ] Warps
-    - [ ] Tidy up the connecting areas with smaller patches
+    - [ ] Make Map
 - [ ] Town West
-    - [ ] Warps
-    - [ ] Tidy up the connecting areas with smaller patches
+    - [ ] Make Map
 - [ ] Standard Farm West
-    - [ ] Warps
-    - [ ] Tidy up the connecting areas with smaller patches
+    - [ ] Make map
 - [ ] Secret Woods Expanded
-    - [ ] Warps
-    - [ ] Tidy up the connecting areas with smaller patches
+    - [ ] Make map
 - [ ] Forest
     - [ ] Warps
     - [ ] Tidy up the connecting areas with smaller patches
 - [ ] Railroad
     - [ ] Warps
     - [ ] Tidy up the connecting areas with smaller patches
+
+- [ ] Check all maps sizes due to finding not big enough maps
 
 ## Per-Person Todo
 ### Atlas
